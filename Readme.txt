@@ -25,14 +25,14 @@ Ce projet explore l'utilisation de la parallélisation en Julia pour résoudre u
 
  Méthodologie
 - Modèle linéaire de mélange spectral (LMM) :
-  - \( X = SA + E \)
-  - \( X \) : matrice des données (pixels).
-  - \( S \) : signatures spectrales (endmembers).
-  - \( A \) : proportions des endmembers (abundance).
-  - \( E \) : bruit additif.
+  -  X = SA + E 
+  -  X  : matrice des données (pixels).
+  -  S  : signatures spectrales (endmembers).
+  -  A  : proportions des endmembers (abundance).
+  -  E  : bruit additif.
 - Contraintes :
-  - Non-négativité (\( a_{pn} \geq 0 \)).
-  - Somme égale à 1 (\( \sum a_{pn} = 1 \)).
+  - Non-négativité.
+  - Somme égale à 1.
 - Utilisation de l’algorithme de descente de gradient projetée pour résoudre les contraintes.
 
 ---
